@@ -17,8 +17,8 @@
 
     <!-- Page Header -->
     <header class="header-web header-mini"
-        style="background-image: url('assets/imgs/web-4.jpeg'); background-size: cover; background-position: center; opacity: 0.6;">
-        <div class="header-title-2">Scotiabank</div>
+        style="background-image: url('assets/imgs/web-4.png'); background-size: cover; background-position: center; opacity: 0.6;">
+        <div class="header-title-2">RetroSwift</div>
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item font-white"><a href="index.html">Home</a></li>
@@ -27,7 +27,66 @@
         <div class="overlay-web"></div>
     </header> <!-- End Of Page Header -->
 
-    <section class="section bg-dark">
+
+    <section class="section" id="resume">
+        <div class="container">
+            <h2 class="mb-5">Info</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Description</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">2021</h6>
+                            <P class="subtitle">RetroSwift is a simple RESTful API calls, automatically convert the
+                                HttpResponse into specified Model as well as the Error using the new apple ’s Codable
+                                feature.
+                            </P>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="mt-2">
+                                <h4>Links</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h6 class="title text-danger">Github</h6>
+                            <a href="https://github.com/shericksam/RetroSwift">RetroSwift</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="pull-left">
+                                <h4 class="mt-2">Technologies</h4>
+                                <span class="line"></span>
+                            </div>
+                        </div>
+                        <div class="card-body pb-2">
+                            <h6>Swift</h6>
+                            <div class="progress mb-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 100%"
+                                    aria-valuenow="97" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="section bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 about-card">
@@ -48,7 +107,7 @@
             </div>
         </div>
         </div>
-    </section>
+    </section> -->
     <section class="section" id="service">
         <div class="container">
             <h2 class="mb-5 pb-4">Highlights</h2>
@@ -59,79 +118,38 @@
                             <i class="ti-vector text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">MVVM Architecture</h5>
-                            <p class="subtitle">Utilized MVVM architecture for better separation of concerns and
-                                maintainability of the codebase.</p>
+                            <h5 class="mb-3 card-title text-dark">GCD (Grand Central Dispatch)</h5>
+                            <p class="subtitle">Utilized GCD for asynchronous programming and managing concurrent tasks.</p>
                         </div>
                     </div>
                 </div>
-
+        
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                         <div class="card-header has-icon">
                             <i class="ti-write text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">SwiftUI Integration</h5>
-                            <p class="subtitle">Incorporated SwiftUI for building modern and dynamic user interfaces.
-                            </p>
+                            <h5 class="mb-3 card-title text-dark">Swift</h5>
+                            <p class="subtitle">Utilized Swift programming language for building the application.</p>
                         </div>
                     </div>
                 </div>
-
+        
                 <div class="col-md-4 col-sm-6">
                     <div class="card mb-5">
                         <div class="card-header has-icon">
                             <i class="ti-package text-danger" aria-hidden="true"></i>
                         </div>
                         <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">GraphQL Integration</h5>
-                            <p class="subtitle">Utilized GraphQL for efficient data fetching and manipulation.</p>
+                            <h5 class="mb-3 card-title text-dark">URLSessionConfiguration</h5>
+                            <p class="subtitle">Utilized URLSessionConfiguration for configuring URL session tasks and connections.</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                        <div class="card-header has-icon">
-                            <i class="ti-mobile text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Datalog Usage</h5>
-                            <p class="subtitle">Implemented Datalog for comprehensive data analytics and tracking.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                        <div class="card-header has-icon">
-                            <i class="ti-map-alt text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Google Maps Integration</h5>
-                            <p class="subtitle">Utilized Google Maps for seamless integration of maps and location
-                                services.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                        <div class="card-header has-icon">
-                            <i class="ti-power-off text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Unit Testing</h5>
-                            <p class="subtitle">Implemented unit testing to ensure the reliability and stability of the
-                                application.</p>
-                        </div>
-                    </div>
-                </div>
+        
             </div>
         </div>
-
-
     </section>
 
     <footer class="footer py-3">
